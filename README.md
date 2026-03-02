@@ -6,7 +6,7 @@
 ![Profile](https://img.shields.io/badge/About%20Me-aboutme-8B0000?style=for-the-badge)
 ![Learning](https://img.shields.io/badge/Learning-ITIL-FFD700?style=for-the-badge)
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=16&duration=2500&pause=600&color=FFD700&center=true&vCenter=true&width=560&lines=IT+service+management+%2F+ITIL;Python+%E2%80%A2+JavaScript+%E2%80%A2+SQL;Git+%E2%80%A2+GitHub+%E2%80%A2+CI%2FCD+basics;Clean+docs+%E2%80%A2+practical+builds+%E2%80%A2+real+progress" alt="Typing intro" />
+<img src="assets/terminal-card.svg" alt="Animated terminal card" />
 
 </div>
 
@@ -54,15 +54,30 @@ I’m **Chris** — I like making tech **reliable, understandable, and actually 
 
 ---
 
+## 🚀 Featured projects
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=ChrisB0617&repo=VitaGlass-OS&hide_border=true&theme=github_dark" alt="VitaGlass-OS" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=ChrisB0617&repo=PrayerWall&hide_border=true&theme=github_dark" alt="PrayerWall" />
+
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=ChrisB0617&repo=RebuiltPrayerWall-iOS&hide_border=true&theme=github_dark" alt="RebuiltPrayerWall-iOS" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=ChrisB0617&repo=callbridge&hide_border=true&theme=github_dark" alt="callbridge" />
+
+</div>
+
+---
+
 ## 🚀 Projects
 
-- I pin my best work on my GitHub profile. I’ll keep this section updated with short, clear summaries.
+- I pin my best work on my GitHub profile. I keep this section updated with short, clear summaries.
 
 ---
 
 ## 🤝 Connect
 
 - **GitHub**: [@ChrisB0617](https://github.com/ChrisB0617)
+- **Best way to reach me**: (add email / LinkedIn here)
 
 <div align="center">
 

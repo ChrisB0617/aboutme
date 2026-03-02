@@ -85,11 +85,39 @@
       Chris
     </text>
     <text x="80" y="132" fill="#d6d7e2" font-family="ui-sans-serif, -apple-system, Segoe UI, Inter, Arial, sans-serif" font-size="18" font-weight="600" opacity="0.95">
-      ITIL learner " building useful projects " improving every week
+      ITIL learner • building useful projects • improving every week
     </text>
     <text x="80" y="158" fill="#a9abc0" font-family="ui-sans-serif, -apple-system, Segoe UI, Inter, Arial, sans-serif" font-size="14" font-weight="600" opacity="0.95">
-      Python " JavaScript " SQL " Git/GitHub
+      Python • JavaScript • SQL • Git/GitHub
     </text>
+  </g>
+
+  <!-- Subtle second animation layer: drifting sparks -->
+  <g opacity="0.55">
+    <g fill="#ffd700">
+      <rect x="210" y="56" width="3" height="3" opacity="0.18">
+        <animate attributeName="opacity" values="0.08;0.32;0.08" dur="2.4s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="26 -10" dur="2.4s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="350" y="72" width="2" height="2" opacity="0.14">
+        <animate attributeName="opacity" values="0.06;0.28;0.06" dur="3.1s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="22 -14" dur="3.1s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="520" y="54" width="3" height="3" opacity="0.12">
+        <animate attributeName="opacity" values="0.05;0.22;0.05" dur="2.9s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="18 -12" dur="2.9s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <g fill="#7ee7ff">
+      <rect x="420" y="118" width="2" height="2" opacity="0.16">
+        <animate attributeName="opacity" values="0.06;0.30;0.06" dur="2.7s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="28 10" dur="2.7s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="610" y="98" width="2" height="2" opacity="0.12">
+        <animate attributeName="opacity" values="0.05;0.22;0.05" dur="3.4s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="20 12" dur="3.4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
   </g>
 
   <!-- Scanlines + vignette for wow but still subtle -->
