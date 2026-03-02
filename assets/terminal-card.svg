@@ -54,7 +54,7 @@
     <circle cx="138" cy="57" r="6" fill="#27c93f"/>
 
     <text x="170" y="62" fill="#cdd0df" font-family="ui-sans-serif, -apple-system, Segoe UI, Inter, Arial" font-size="12" font-weight="700" opacity="0.95">
-      terminal  chris@workstation
+      terminal — chris@workstation
     </text>
 
     <!-- content -->
@@ -87,8 +87,8 @@
         <text x="120" y="193" opacity="0.95">$ focus --now</text>
         <g clip-path="url(#reveal3)"><text x="120" y="193" fill="#e9ecff">$ focus --now</text></g>
 
-        <text x="120" y="227" fill="#7ee7ff">ITIL " docs " automation " reliable systems</text>
-        <g clip-path="url(#reveal4)"><text x="120" y="227" fill="#7ee7ff">ITIL " docs " automation " reliable systems</text></g>
+        <text x="120" y="227" fill="#7ee7ff">ITIL • docs • automation • reliable systems</text>
+        <g clip-path="url(#reveal4)"><text x="120" y="227" fill="#7ee7ff">ITIL • docs • automation • reliable systems</text></g>
 
         <!-- blinking cursor -->
         <rect x="540" y="215" width="10" height="18" fill="#ffd700" opacity="0.85">
