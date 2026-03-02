@@ -120,7 +120,7 @@
     </g>
   </g>
 
-  <!-- Scanlines + vignette for wow but still subtle -->
+  <!-- Scanlines + vignette (subtle, clean) -->
   <rect width="1200" height="220" fill="url(#scan)"/>
   <rect width="1200" height="220" fill="url(#vignette)"/>
 </svg>
