@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="Animated pixel waterfall banner">
+  <defs>
+    <!-- Background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06070d"/>
+      <stop offset="0.55" stop-color="#0a0b18"/>
+      <stop offset="1" stop-color="#070816"/>
+    </linearGradient>
+
+    <!-- Subtle red/gold accent glow (keeps the vibe without using character art) -->
+    <radialGradient id="glow" cx="18%" cy="35%" r="65%">
+      <stop offset="0" stop-color="#8b0000" stop-opacity="0.35"/>
+      <stop offset="0.45" stop-color="#8b0000" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="82%" cy="30%" r="60%">
+      <stop offset="0" stop-color="#ffd700" stop-opacity="0.20"/>
+      <stop offset="0.55" stop-color="#ffd700" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Water colors -->
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7ee7ff" stop-opacity="0.95"/>
+      <stop offset="0.45" stop-color="#2fb6ff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#0b3fff" stop-opacity="0.85"/>
+    </linearGradient>
+
+    <!-- Pixel pattern: a few pixels per 24x24 tile -->
+    <pattern id="pixels" width="24" height="24" patternUnits="userSpaceOnUse">
+      <rect x="2" y="1" width="4" height="4" fill="url(#water)" opacity="0.95"/>
+      <rect x="12" y="6" width="4" height="4" fill="url(#water)" opacity="0.8"/>
+      <rect x="18" y="14" width="4" height="4" fill="url(#water)" opacity="0.6"/>
+      <rect x="8" y="16" width="4" height="4" fill="url(#water)" opacity="0.75"/>
+      <rect x="4" y="11" width="4" height="4" fill="url(#water)" opacity="0.55"/>
+    </pattern>
+
+    <!-- Waterfall pattern with animation: move the pixel tile downward -->
+    <pattern id="fall" width="24" height="24" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="24" height="24" fill="url(#pixels)"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 -24" to="0 24" dur="1.2s" repeatCount="indefinite"/>
+    </pattern>
+
+    <!-- Softer secondary fall layer for depth -->
+    <pattern id="fall2" width="30" height="30" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="30" height="30" fill="url(#pixels)" opacity="0.65"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 -30" to="0 30" dur="1.85s" repeatCount="indefinite"/>
+    </pattern>
+
+    <!-- Scanlines -->
+    <pattern id="scan" width="2" height="6" patternUnits="userSpaceOnUse">
+      <rect width="2" height="3" fill="#ffffff" opacity="0.035"/>
+      <rect y="3" width="2" height="3" fill="#000000" opacity="0.0"/>
+    </pattern>
+
+    <!-- Soft vignette -->
+    <radialGradient id="vignette" cx="50%" cy="42%" r="70%">
+      <stop offset="60%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.55"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Base -->
+  <rect width="1200" height="220" fill="url(#bg)"/>
+  <rect width="1200" height="220" fill="url(#glow)"/>
+  <rect width="1200" height="220" fill="url(#glow2)"/>
+
+  <!-- Waterfall columns -->
+  <g opacity="0.95">
+    <rect x="820" y="0" width="150" height="220" fill="url(#fall2)" opacity="0.55"/>
+    <rect x="840" y="0" width="170" height="220" fill="url(#fall)" opacity="0.85"/>
+    <rect x="1015" y="0" width="105" height="220" fill="url(#fall2)" opacity="0.45"/>
+    <rect x="1045" y="0" width="120" height="220" fill="url(#fall)" opacity="0.75"/>
+  </g>
+
+  <!-- Pool shimmer at bottom -->
+  <g opacity="0.9">
+    <rect x="0" y="175" width="1200" height="45" fill="url(#water)" opacity="0.08"/>
+    <rect x="0" y="188" width="1200" height="32" fill="url(#water)" opacity="0.06"/>
+  </g>
+
+  <!-- Text block (kept clean + professional) -->
+  <g>
+    <text x="78" y="96" fill="#ffffff" font-family="ui-sans-serif, -apple-system, Segoe UI, Inter, Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="0.5">
+      Chris
+    </text>
+    <text x="80" y="132" fill="#d6d7e2" font-family="ui-sans-serif, -apple-system, Segoe UI, Inter, Arial, sans-serif" font-size="18" font-weight="600" opacity="0.95">
+      ITIL learner " building useful projects " improving every week
+    </text>
+    <text x="80" y="158" fill="#a9abc0" font-family="ui-sans-serif, -apple-system, Segoe UI, Inter, Arial, sans-serif" font-size="14" font-weight="600" opacity="0.95">
+      Python " JavaScript " SQL " Git/GitHub
+    </text>
+  </g>
+
+  <!-- Scanlines + vignette for wow but still subtle -->
+  <rect width="1200" height="220" fill="url(#scan)"/>
+  <rect width="1200" height="220" fill="url(#vignette)"/>
+</svg>
